@@ -11,7 +11,7 @@ For usage see [USAGE.md](USAGE.md)
 ## Updating to 8.x
 
 8.x version features a fully revamped UI based on our new [UI
-styleguide](https://styleguide.pir-test.eu/). The theme no longer has it's own
+styleguide](https://styleguide.pirati.cz/). The theme no longer has it's own
 CSS styles. Instead, all the styles are being provided by the styleguide itself.
 Same applies to JS: whole webpack asset pipeline has been dropped which
 resulted in a lot simpler design. This version is a transition one before
@@ -45,15 +45,15 @@ using `transparencySection: true/false` property in the `_data/menu.yml`.
 
 #### New includes
 
-- `_includes/avatar.html` - creates [avatar image](https://styleguide.pir-test.eu/latest/?p=viewall-atoms-avatars)
-- `_includes/buttons/basic.html` - a [button without icon](https://styleguide.pir-test.eu/latest/?p=atoms-button-colors)
-- `_includes/buttons/icon.html` - a [button with icon](https://styleguide.pir-test.eu/latest/?p=atoms-button-colors)
-- `_includes/buttons/super.html` - a [super button](https://styleguide.pir-test.eu/latest/?p=viewall-atoms-super-buttons)
-- `_includes/calendar.html` - a [calendar widget](https://styleguide.pir-test.eu/latest/?p=molecules-js-calendar)
-- `_includes/contact-line.html` - a generic [contact line](https://styleguide.pir-test.eu/latest/?p=viewall-atoms-contact-lines)
-- `_includes/countdown.html` - a [countdown widget](https://styleguide.pir-test.eu/latest/?p=viewall-organisms-countdown)
-- `_includes/hero/simple.html` - a [simple hero banner](https://styleguide.pir-test.eu/latest/?p=templates-pirate-center)
-- `_includes/hero/advanced.html` - a [complex hero banner](https://styleguide.pir-test.eu/latest/?p=templates-elections)
+- `_includes/avatar.html` - creates [avatar image](https://styleguide.pirati.cz/latest/?p=viewall-atoms-avatars)
+- `_includes/buttons/basic.html` - a [button without icon](https://styleguide.pirati.cz/latest/?p=atoms-button-colors)
+- `_includes/buttons/icon.html` - a [button with icon](https://styleguide.pirati.cz/latest/?p=atoms-button-colors)
+- `_includes/buttons/super.html` - a [super button](https://styleguide.pirati.cz/latest/?p=viewall-atoms-super-buttons)
+- `_includes/calendar.html` - a [calendar widget](https://styleguide.pirati.cz/latest/?p=molecules-js-calendar)
+- `_includes/contact-line.html` - a generic [contact line](https://styleguide.pirati.cz/latest/?p=viewall-atoms-contact-lines)
+- `_includes/countdown.html` - a [countdown widget](https://styleguide.pirati.cz/latest/?p=viewall-organisms-countdown)
+- `_includes/hero/simple.html` - a [simple hero banner](https://styleguide.pirati.cz/latest/?p=templates-pirate-center)
+- `_includes/hero/advanced.html` - a [complex hero banner](https://styleguide.pirati.cz/latest/?p=templates-elections)
 
 #### New pagination
 
@@ -104,7 +104,7 @@ To use it fully, provide `heroImg` in the person markdown file.
 
 #### Highlight important articles
 
-These will show as the [emphasized variant in black](https://styleguide.pir-test.eu/latest/?p=viewall-molecules-article-card).
+These will show as the [emphasized variant in black](https://styleguide.pirati.cz/latest/?p=viewall-molecules-article-card).
 
 #### Organizations can personalise their onboard and donate links in header and footer
 
@@ -130,7 +130,7 @@ has to be replaced with `partyUid` pointing to actual `uid` in `parties.yml`.
 
 #### Font awesome dropped in favor of custom iconset
 
-As the result, all the `fa*` icons won't work anymore. New icons has `ico--*` naming instead. See the [styleguide](https://styleguide.pir-test.eu/latest/?p=viewall-atoms-icons) for an overview of available icons. You will need to update your icons should you used some. Namely, icons will have to be updated in the `menu.yml`.
+As the result, all the `fa*` icons won't work anymore. New icons has `ico--*` naming instead. See the [styleguide](https://styleguide.pirati.cz/latest/?p=viewall-atoms-icons) for an overview of available icons. You will need to update your icons should you used some. Namely, icons will have to be updated in the `menu.yml`.
 
 
 #### Some deleted templates
